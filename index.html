@@ -8,37 +8,36 @@
   </head>
   <body>
     <header>
-      <div class="logo">
+      <!-- <div class="logo">
         <img src="img/Logo.png" alt="Logo del Encriptador" />
       </div>
-    </header>
+    </header> -->
     <div class="container">
       <main class="main-content">
         <div class="input-container">
-          <textarea
+          <input
             name="user_input"
             id="input-text"
             placeholder="Ingrese el texto aquí"
-          ></textarea>
+          ></input>
         </div>
         <div class="controls-container">
-          <p class="instructions">Solo letras minúsculas y sin acentos</p>
+          <p class="instructions"><img src="img/icons8-advertencia-50.png" alt="icono de advertencia">Solo letras minúsculas y sin acentos</p>
           <div class="button-group">
-            <button class="btn-encrypt">Encriptar</button>
-            <button class="btn-decrypt">Desencriptar</button>
+            <button class="btn btn-encrypt">Encriptar</button>
+            <button class="btn btn-decrypt">Desencriptar</button>
           </div>
         </div>
       </main>
-      <aside>
-        <div class="output-container">
-          <div class="output-message">
-            <img src="img/Muñeco.svg" alt="Ícono de información" />
-            <h4>Ningún mensaje fue encontrado</h4>
-            <p>Ingresa el texto que desees encriptar o desencriptar</p>
-          </div>
-          <div class="output-text">
-            <p></p>
-          </div>
+
+      <aside class="output-container">
+        <div class="output-message">
+          <img src="img/Muñeco.svg" alt="Ícono de información" />
+          <h2>Ningún mensaje fue encontrado</h2>
+          <p>Ingresa el texto que desees encriptar o desencriptar</p>
+        </div>
+        <div class="output-text">
+          <p></p>
         </div>
       </aside>
     </div>
