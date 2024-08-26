@@ -15,6 +15,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .main-content {
@@ -23,6 +24,7 @@ body {
   flex-direction: column;
   justify-content: space-around;
   margin: 0 2rem 0 2rem;
+  flex: 1;
 }
 .input-container {
   margin-bottom: 20px;
@@ -73,6 +75,10 @@ body {
   cursor: pointer;
 }
 
+.btn:hover {
+  border: 1px solid #000;
+}
+
 .button-group .btn-encrypt {
   background-color: #4a69bd;
   color: #fff;
@@ -90,6 +96,7 @@ body {
   padding: 3.5rem;
   border-radius: 32px;
   margin: 0 2rem 0 2rem;
+  flex: 1;
 }
 
 .output-message {
@@ -109,4 +116,28 @@ p {
 }
 .output-text {
   display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    height: auto;
+  }
+
+  .main-content {
+    margin-bottom: 20px;
+  }
+
+  .output-container {
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+  }
+
+  .output-message img {
+    display: none;
+  }
 }
