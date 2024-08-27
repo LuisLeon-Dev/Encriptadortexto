@@ -24,12 +24,12 @@ El encriptador utiliza las siguientes reglas de conversión:
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/encriptador-texto.git
+   git clone https://github.com/LuisLeon-Dev/Encriptadortexto.git
 Navega al directorio del proyecto:
 
 bash
 Copiar código
-cd encriptador-texto
+cd EncriptadorTexto
 Abre index.html en tu navegador favorito.
 
 Ingresa el texto que deseas encriptar o desencriptar en el campo de texto.
@@ -44,7 +44,7 @@ CSS3
 JavaScript (ES6+)
 
 ## Personalización 🎨
-Puedes modificar las reglas de encriptación/desencriptación en el archivo JavaScript (script.js) para adaptarlo a tus necesidades.
+Puedes modificar las reglas de encriptación/desencriptación en el archivo JavaScript (app.js) para adaptarlo a tus necesidades.
 
 ## Contribuciones 🤝
 ¡Las contribuciones son bienvenidas! Si tienes alguna mejora o encuentras algún error, por favor abre una issue o envía un pull request.
