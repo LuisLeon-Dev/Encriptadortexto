@@ -6,7 +6,6 @@ const inputText = document.getElementById("inputText");
 const outputText = document.getElementById("outputText");
 const ilustracion = document.getElementById("ilustracion");
 const textInfo = document.getElementById("textoInfo");
-const rigth = document.getElementById("rigth");
 
 // Tabla de reemplazos para encriptar/desencriptar
 const remplazar = [
